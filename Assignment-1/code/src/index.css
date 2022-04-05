@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  height: calc(100vh - 60px);
+  width: calc(100%-60px);
+  padding: 30px;
+}
+
+.AppComponentColor {
+  height: calc(33.33% - 10px);
+  margin-bottom: 10px;
+}
+.AppComponentColor:last-child {
+  margin-bottom: 0px;
+}
+.Yellow {
+  background: yellow;
+  display: inline-block;
+  height: 100%;
+  width: calc(50% - 5px);
+  margin-right: 10px;
+}
+.Yellow:last-child {
+  margin-right: 0px;
+}
+.Red {
+  background: red;
+  height: 100%;
+  width: 100%;
+}
+.Blue {
+  background: blue;
+  height: 100%;
+  width: calc(33.33% - 7px);
+  display: inline-block;
+  margin-right: 10px;
+}
+.Blue:last-child {
+  margin-right: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .Blue:last-child {
+    display: none;
+  }
+  .Blue {
+    display: block;
+    width: 100%;
+    height: calc(50% - 5px);
+    margin: 0px;
+    margin-top: 10px;
+  }
+  .Blue:first-child {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .Yellow {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
+    height: calc(50% - 5px);
+  }
+  .Yellow:first-child {
+    margin-top: 0px;
+  }
+}
