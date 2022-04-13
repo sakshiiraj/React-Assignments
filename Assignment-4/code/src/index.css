@@ -90,3 +90,30 @@ body {
   padding-bottom: 10px;
   line-height: 20px;
 }
+/* nav.Header {
+  background-color: #dcdada;
+} */
+
+.HeadInstaLogo {
+  text-align: right;
+}
+.HeadInstaLogo > svg {
+  position: relative;
+  right: 10vw;
+  bottom: 2.5vh;
+}
+
+.HeadTitle {
+  font-size: 2rem;
+  color: #6db497;
+  font-style: serif;
+  font-family: "PT Serif", serif;
+  position: relative;
+  left: 28vw;
+  top: 2.5vh;
+}
+.HeaderTitleWrapper {
+  border-top: 1px solid #adadad;
+  border-bottom: 1px solid #adadad;
+  margin: 2%;
+}

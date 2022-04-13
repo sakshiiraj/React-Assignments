@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Header from "./Post/Header";
 import Post from "./Post/Post";
 // import "./Postview.css";
 
@@ -16,11 +17,14 @@ const Postview = () => {
   }, []);
 
   return (
-    <div className="Postview">
-      {posts.map((post, index) => (
-        <Post key={index} config={post} />
-      ))}
-    </div>
+    <>
+      <Header />
+      <div className="Postview">
+        {posts.map((post, index) => (
+          <Post key={index} config={post} />
+        ))}
+      </div>
+    </>
   );
 };
 
