@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "name": "Siva",
+      "location": "Bengaluru",
+      "likes": 64,
+      "description": "Ambition on fleek",
+      "PostImage": "QuotesImg.jpg",
+      "date": 1648488334979
+    },
+    {
+      "name": "Neeraj",
+      "location": "Pune",
+      "likes": 30,
+      "description": "Don't Stop Meowing",
+      "PostImage": "CatImg.jpg",
+      "date": 1648488334979
+    },
+    {
+      "name": "Rahul",
+      "location": "Hyderabad",
+      "likes": 30,
+      "description": "Dogs never bite me. Just humans.",
+      "PostImage": "DogImg.jpg",
+      "date": 1648488334979
+    }
+  ]
+}
