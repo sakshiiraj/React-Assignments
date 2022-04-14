@@ -125,6 +125,7 @@ body {
   top: 2.5vh;
 }
 .HeaderTitleWrapper {
+
   border-top: 2px solid #adadad;
   border-bottom: 2px solid #adadad;
   margin: 2%;
@@ -176,5 +177,8 @@ button.LandingPageBtn {
   left: 6vw;
 }
 a {
-  font-family: "Grape Nuts", cursive;
+  font-family: "Grape Nuts", cursive,
+  border-top: 1px solid #adadad;
+  border-bottom: 1px solid #adadad;
+  margin: 2%;
 }
